@@ -1,3 +1,49 @@
 <resources>
-    <string name="app_name">pomodorotimer</string>
+    <string name="app_name">ポモドーロタイマー</string>
+
+    <string name="phase_work">作業</string>
+    <string name="phase_short_break">休憩</string>
+    <string name="phase_long_break">長い休憩</string>
+    <string name="phase_work_running">作業中</string>
+    <string name="phase_short_break_running">休憩中</string>
+    <string name="phase_long_break_running">長い休憩中</string>
+    <string name="completed_sets">完了 %1$d セット</string>
+
+    <string name="action_start">開始</string>
+    <string name="action_pause">一時停止</string>
+    <string name="action_resume">再開</string>
+    <string name="action_reset">リセット</string>
+    <string name="action_skip">スキップ</string>
+
+    <string name="notification_work_finished">作業が終了しました</string>
+    <string name="notification_break_finished">休憩が終了しました</string>
+    <string name="notification_next_started">%1$s(%2$s)を開始しました</string>
+    <string name="notification_paused">一時停止中 %1$s ・ %2$s</string>
+    <string name="channel_ongoing">タイマーの残り時間</string>
+    <string name="channel_alert_sound">フェーズ終了(音)</string>
+    <string name="channel_alert_vibration">フェーズ終了(バイブレーション)</string>
+
+    <string name="settings_title">設定</string>
+    <string name="settings_open">設定を開く</string>
+    <string name="settings_work">作業</string>
+    <string name="settings_short_break">短い休憩</string>
+    <string name="settings_long_break">長い休憩</string>
+    <string name="settings_edit_duration">%1$sの時間</string>
+
+    <string name="add_time_title">時間を追加</string>
+    <string name="add_time_confirm">追加</string>
+    <string name="add_time_click_label">タップして時間を追加</string>
+
+    <string name="keypad_hour">時間</string>
+    <string name="keypad_minute">分</string>
+    <string name="keypad_second">秒</string>
+    <string name="keypad_preset">%1$dm</string>
+    <string name="keypad_confirm">設定</string>
+    <string name="keypad_cancel">キャンセル</string>
+    <string name="keypad_delete">削除</string>
+    <string name="settings_alert_mode">終了時の通知方法</string>
+    <string name="alert_mode_sound">音を鳴らす</string>
+    <string name="alert_mode_vibration">バイブレーション</string>
+
+    <string name="widget_description">残り時間を確認・操作できるタイマーウィジェット</string>
 </resources>
